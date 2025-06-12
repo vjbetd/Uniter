@@ -1,18 +1,23 @@
-﻿using UniterEntity.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using UniterEntity.Data;
 using UniterEntity.Model;
 
 namespace UniterEntity.Repository;
 
 public class UserRepository(UniterDbContext context)
 {
+    protected DbSet<User> Table => context.Users; // context.Set<User>();
+
     public IEnumerable<User> GetAll()
     {
-        throw new NotImplementedException();
+        return Table.ToList();
     }
 
     public User Register(User user)
     {
-        throw new NotImplementedException();
+        var entity = Table.Add(user).Entity;
+        context.SaveChanges();
+        return entity;
     }
 }
 
