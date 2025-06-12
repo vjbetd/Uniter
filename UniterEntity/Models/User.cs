@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace UniterEntity.Model;
+namespace UniterEntity.Models;
 
 [Index(nameof(Email), IsUnique = true)]
 public class User

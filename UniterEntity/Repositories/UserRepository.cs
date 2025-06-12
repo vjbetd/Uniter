@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UniterEntity.Data;
-using UniterEntity.Model;
+using UniterEntity.Models;
 
-namespace UniterEntity.Repository;
+namespace UniterEntity.Repositories;
 
-public class UserRepository(UniterDbContext context)
+public class UserRepository(UniterDbContext context) : IUserRepository
 {
     protected DbSet<User> Table => context.Users; // context.Set<User>();
 

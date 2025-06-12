@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using UniterEntity.Data;
-using UniterEntity.Model;
-using UniterEntity.Repository;
+using UniterEntity.Models;
+using UniterEntity.Repositories;
 
 namespace UniterEntityTests;
 

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using UniterEntity.Model;
+using UniterEntity.Models;
 
 namespace UniterEntity.Data;
 
