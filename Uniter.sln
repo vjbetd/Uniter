@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathTests", "MathTests\Math
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniterEntity", "UniterEntity\UniterEntity.csproj", "{0F930567-7579-442E-8E19-E19F4DF2E2B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniterEntityTests", "UniterEntityTests\UniterEntityTests.csproj", "{CDA3BB04-5A63-4A08-95E6-B0622926926B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniterEntityTests", "UniterEntityTests\UniterEntityTests.csproj", "{CDA3BB04-5A63-4A08-95E6-B0622926926B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniterApp", "UniterApp\UniterApp.csproj", "{5BB5B29B-DA8C-4BD5-9978-D454F6D9ED8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniterAppTests", "UniterAppTests\UniterAppTests.csproj", "{72DA9E92-6DA2-4DFC-8558-199E950814FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{CDA3BB04-5A63-4A08-95E6-B0622926926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA3BB04-5A63-4A08-95E6-B0622926926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA3BB04-5A63-4A08-95E6-B0622926926B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB5B29B-DA8C-4BD5-9978-D454F6D9ED8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB5B29B-DA8C-4BD5-9978-D454F6D9ED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB5B29B-DA8C-4BD5-9978-D454F6D9ED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB5B29B-DA8C-4BD5-9978-D454F6D9ED8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DA9E92-6DA2-4DFC-8558-199E950814FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DA9E92-6DA2-4DFC-8558-199E950814FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DA9E92-6DA2-4DFC-8558-199E950814FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DA9E92-6DA2-4DFC-8558-199E950814FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
